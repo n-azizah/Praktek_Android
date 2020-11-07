@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="18dp"
     android:background="@color/purple_200"
     tools:context=".SplashActivity">
 
     <TextView
-        android:drawableTop="@mipmap/ic_launcher"
-        android:text="Aplikasi Praktikum Android"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        android:gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </TextView>
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="Aplikasi Praktikum Android"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"></TextView>
 </LinearLayout>
